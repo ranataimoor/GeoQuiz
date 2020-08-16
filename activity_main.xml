@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Constantinople is the largest city in Turkey"
+    android:layout_width="match_parent"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="true"
+    android:gravity="clip_horizontal|center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/true_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/true_button" />
+
+
+    <Button
+        android:id="@+id/false_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/false_button" />
+
+</LinearLayout>
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/true_button" />
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/false_button" />
+    </LinearLayout>
+    </LinearLayout>
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizental" >
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/true_text"
+    Toast.makeText(QuizActivity.this, R.string.correct_toast, Toast.LENGTH_SHORT).show();
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/false_text"
+    Toast.makeText(QuizActivity.this, R.string.incorrect_toast, Toast.LENGTH_SHORT).show();
+    </LinearLayout>
+    </LinearLayout>
